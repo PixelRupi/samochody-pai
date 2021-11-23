@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PL" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wypożyczalnia samochodów</title>
+    <link rel="stylesheet" href="styl.css">
+  </head>
+  <body>
+    <div id="baner">
+      <div id="kluczyk">
+        <img id="baner_z_kluczykiem" src="kluczyk.png">
+      </div>
+
+      <div id="samochod">
+        <img id="baner_z_autem" src="auto.png" height="250px">
+      </div>
+
+      <center>
+        <div id="napis_tytul">
+          Wypożyczalnia samochodów
+        </div>
+      </center>
+    </div>
+
+    <div id="lewy">
+      <hr>
+      <h2>Nasza FLota</h2>
+        <p><img src="captur_mini.png" onclick="auto('1')"></p>
+        <p><img src="leon_mini.png" onclick="auto('2')"></p>
+        <p><img src="octavia_mini.png" onclick="auto('3')"></p>
+        <p><img src="trafic_mini.png" onclick="auto('4')"></p>
+      <hr>
+      <h2><a target="_blank" href="https://pbs.twimg.com/media/FEgF1TxXEAMCr15.jpg:large">Cennik</a></h2>
+      <hr>
+    </div>
+
+    <div id="prawy">
+      <h1>Samochód</h1>
+      <p id="akapit">Reno Kaptur</p>
+      <img id="obrazy_prawy_panel" src="captur.png" alt="foto">
+
+      <script type="text/javascript">
+        function auto(zmienna) {
+          switch (zmienna) {
+            case "1":
+              //console.log("1");
+              document.getElementById('akapit').innerHTML='Renault Captur';
+              document.getElementById('obrazy_prawy_panel').src = 'captur.png';
+              break;
+
+            case "2":
+              //console.log("2");
+              document.getElementById('akapit').innerHTML="Leon";
+              document.getElementById('obrazy_prawy_panel').src = 'leon.png';
+              break;
+
+            case "3":
+              //console.log("3");
+              document.getElementById('akapit').innerHTML="Octavia";
+              document.getElementById('obrazy_prawy_panel').src = 'octavia.png';
+              break;
+
+            case "4":
+              //console.log("4");
+              document.getElementById('akapit').innerHTML="Trafic";
+              document.getElementById('obrazy_prawy_panel').src = 'trafic.png';
+              break;
+          }
+        }
+      </script>
+    </div>
+
+    <div id="stopka">
+      <p>Autor strony: <i>00000000000</i></p>
+    </div>
+  </body>
+</html>

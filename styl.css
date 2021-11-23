@@ -1,0 +1,64 @@
+#baner{
+  background-color: #287396;
+  text-align: center;
+  color: white;
+  height: 260px;
+  clear:
+}
+
+#lewy{
+  clear: both;
+  background-color: #287396;
+  text-align: center;
+  color: white;
+  height: 600px;
+  width: 20%;
+  float: left;
+}
+
+#prawy{
+  background-color: #F7C43B;
+  text-align:  center;
+  color: #886929;
+  height: 600px;
+  width: 80%;
+  float: left;
+}
+
+#stopka{
+  background-color: #287396;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+
+#baner_z_kluczykiem{
+  float: left;
+}
+
+#napis_tytul{
+  color: red;
+  font-size: 40px;
+  padding: 50px;
+  width: 31%;
+}
+
+#kluczyk{
+  float: none;
+  width: 31%;
+}
+
+#samochod{
+  float: right;
+  width: 31%;
+}
+
+h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+#obrazy_prawy_panel{
+  width: 40%;
+  margin: 20px;
+}
